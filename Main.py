@@ -1,6 +1,5 @@
 from src.Step_1_DataPreparation import DataPreparation
-from src.Step_2_EDA import EDA
-# ...and so on for all 11
+#from src.Step_2_EDA import EDA
 
 output_dirs = {
     'Datapreparation': "./outputs/Datapreparation",
@@ -13,8 +12,8 @@ output_dirs = {
 }
 
 preparation = DataPreparation(
-    demand_path="./data/raw/demand.csv",
-    plants_path="./data/raw/plants.csv",
-    generation_path="./data/raw/generation_costs.csv",
+    data_path="./data/raw/insurance.csv",
     output_dirs=output_dirs
 )
+
+preparation.run_pipeline()
