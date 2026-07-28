@@ -146,10 +146,10 @@ This executes the full pipeline end-to-end — from raw data loading through fin
  
 | 🤖 Model | 📉 RMSE | 📊 MAE | 📈 R² Score |
 |---|---|---|---|
-| 🌲 Random Forest | *[fill in]* | *[fill in]* | *[fill in]* |
-| 🚀 Gradient Boosting | *[fill in]* | *[fill in]* | *[fill in]* |
+| 🌲 Random Forest | *[4816.09]* | *[2737.60]* | *[0.8738]* |
+| 🚀 Gradient Boosting | *[4761.96]* | *[2678.67]* | *[0.8766]* |
  
-**🔁 Cross-Validation (Random Forest):** Mean RMSE = *[fill in]*, Std = *[fill in]*
+**🔁 Cross-Validation (Random Forest):** Mean RMSE = *[5080.23]*, Std = *[ 171.34]*
  
 **🏆 Best Hyperparameters (Random Forest):** *[fill in from `best_params` output]*
  
